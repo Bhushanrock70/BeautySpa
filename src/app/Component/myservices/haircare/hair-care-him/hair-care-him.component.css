@@ -1,0 +1,71 @@
+.HairNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.HairNavbar a{
+    font-size: 24px;
+    color: rgb(126, 5, 128);
+
+}
+
+/* css */
+
+
+.rightside{
+    position: absolute;
+    right: 0;
+    width: 350px;
+    margin-right: 20px;
+    color: rebeccapurple;
+}
+
+.banner {
+    display: flex;
+    margin: 4% 8%;
+
+}
+
+
+.myimg{
+    width: 450px;
+    height: 390px;
+}
+img{
+    width: 440px;
+    height: 380px;
+}
+
+.myheading{
+    margin-left: 5px;
+}
+.banner-content {
+    max-width: 400px;
+    
+    margin:0 auto;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+    color:rgb(233, 20, 20);
+    margin-bottom: 20px;
+}
+
+.price{
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.price:hover {
+    background-color:blue;
+}
+
+
+

@@ -1,0 +1,22 @@
+.myul{
+    display: flex;
+}
+
+li{
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+a{
+    font-style: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.h2{
+    font-style: italic;
+}
+
+a:hover{
+ cursor: pointer;
+}

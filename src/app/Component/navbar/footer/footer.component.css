@@ -1,0 +1,58 @@
+.st {
+    column-count: 4;
+    column-gap: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+
+
+    color: white;
+}
+
+.sp{
+    column-count: 4;
+    column-gap: 20px;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.sq{
+    column-count: 4;
+    column-gap: 20px;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.sm{
+    margin-top: 15px;
+    column-count: 4;
+    column-gap: 20px;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.foot{
+    background-color: rgb(104, 104, 181);
+    background-size: cover;
+    border: brown;
+    padding: 14px;
+}
+
+.bottomline{
+    background-color: rgb(104, 104, 181);
+    margin-top: 5px;
+    background-size: cover;
+
+}
+
+.bt{
+ display:flex;
+ margin-inline: 10px;
+ gap: 60%;
+ color:white;
+ cursor: pointer;
+}

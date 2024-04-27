@@ -1,0 +1,27 @@
+.mybanner {
+    background-image: url('path/../../../../../../assets/image/Haircarefront.png');
+    background-size:cover;
+    background-position:center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 400px;
+}
+
+.HairNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    
+
+}
+.HairNavbar a{
+    font-size: 24px;
+    color: rgb(126, 5, 128);
+    padding: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
