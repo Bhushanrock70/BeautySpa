@@ -18,6 +18,9 @@ import { AboutusComponent } from './Component/navbar/header/aboutus/aboutus.comp
 import { FooterComponent } from './Component/navbar/footer/footer.component';
 import { HairPricetagComponent } from './Component/myservices/haircare/hair-pricetag/hair-pricetag.component';
 import {HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './Component/navbar/header/Login/login/login.component';
+import { RegisterComponent } from './Component/navbar/header/Register/register/register.component';
+import { ServiceCardComponent } from './Component/Testjson/service-card/service-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +37,10 @@ import {HttpClientModule} from '@angular/common/http';
     ViewallbodycareComponent,
     AboutusComponent,
     FooterComponent,
-    HairPricetagComponent
+    HairPricetagComponent,
+    LoginComponent,
+    RegisterComponent,
+    ServiceCardComponent
     
     ],
   imports: [

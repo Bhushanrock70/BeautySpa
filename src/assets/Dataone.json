@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Shampoo",
+        "star": " ✰  ✰  ✰  ✰  ✰ ",
+        "image": "../assets/image/home1.jpg",
+        "description": "120 RS"
+    },
+    {
+        "title": "Facial cream",
+        "star": " ✰  ✰  ✰  ✰  ✰ ",
+        "image": "../assets/image/facial.jpg",
+        "description": "210 RS"
+    },
+    {
+        "title": "Bleach cream",
+        "star": " ✰  ✰  ✰  ✰  ✰ ",
+        "image": "../assets/image/facial.jpg",
+        "description": "160 RS"
+    },
+    {
+        "title": "Face serum",
+        "star": " ✰  ✰  ✰  ✰  ✰ ",
+        "image": "../assets/image/facial.jpg",
+        "description": "350 RS"
+    }
+]

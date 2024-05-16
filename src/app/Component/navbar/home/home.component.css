@@ -1,115 +1,146 @@
-
-.main-home{
-    margin-bottom: 40%;
-    
-}
-.banner {
-    background-size:cover;
-    background-position:center;
-    color: #fff;
-    text-align: center;
+.elementor-element {
+    height: 700px;
+    background-attachment: fixed;
+    background-image: url(https://websitedemos.net/be-bold-beauty-store-04/wp-content/uploads/sites/1117/2022/08/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.banner-content {
-    max-width: 500px;
-    
-    margin:0 auto;
-}
-
-.banner-content h2 {
-    font-size: 36px;
-    color: brown;
-    margin-bottom: 20px;
-}
-
-.banner-content p {
-    font-size: 20px;
-    color:black;
-    margin-bottom: 30px;
-}
-
-.btn {
-    background-color:black;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color:blue;
-}
-.carousel-inner img{
-    width: 90%;
-    height: 550px;
+.content-one {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 8%;
+    margin-right: 50%;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    padding-right: 100px;
 
 }
 
-.carousel{
-    margin: 35px;
-    border: 1px solid rgb(210, 203, 203);
+.content-one h4 {
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 26%;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
 }
 
-.mytext{
-    text-align: center;
-    font-size: 30px;
+.content-one h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+.content-one h2 {
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: aquamarine;
+}
+
+.content-two {
+    justify-content: center;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.content-two h4 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
     color: black;
-    
+    margin-left: 37px;
 }
 
-.mytext1{
-    text-align: center;
-    color: rgb(70, 30, 212);
-}
-
-.banner {
-    display: flex;
-    margin: 1% 8%;
-}
-
-
-.banner-content {
-    max-width: 400px;
-    
-    margin:0 auto;
-}
-
-img{
-    width: 440px;
-    height: 380px;
-}
-
-.banner1{
-    height: 380px;
-    /* width: 1060px; */
-    display: flex;
-    margin: 1% 8%;
-}
-
-.myheading1{
-    margin-left: 25px;
-    margin-top: 0px;
-    padding: 20px;
+.content-two h1 {
+    font-style: oblique;
+    font-family: 'Times New Roman, Times, serif';
+    font-weight: 900;
+    font-size: xxx-large;
     color: black;
-    background-color: rgb(193, 162, 196);
 }
 
-.myheading2{
-   
-    margin-top: 0px;;
+.content-three {
+    justify-content: center;
+    margin-left: 40%;
+    padding-top: 20px;
+}
+
+.content-three h4 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
     color: black;
-    background-color: rgb(193, 162, 196);
-    text-align: center;
+    margin-left: 70px;
 }
 
-.myheading3{
-    height: 400px;
-    font-size: large;
-    margin-top: 27px;
-    background-color:  rgb(193, 162, 196);
-    width: 99%;
+.content-three h1 {
+    font-style: oblique;
+    font-family: 'Times New Roman, Times, serif';
+    font-weight: 900;
+    font-size: xxx-large;
+    color: black;
+}
+
+.elementor-elementone {
+    height: 700px;
+    background-attachment: fixed;
+    background-image: url(https://websitedemos.net/be-bold-beauty-store-04/wp-content/uploads/sites/1117/2022/08/bg-03.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-four {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 8%;
+    margin-right: 50%;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    padding-right: 100px;
+
+}
+
+.content-four h4 {
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(194, 184, 201);
+}
+
+.content-four h3 {
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(137, 92, 92);
+}
+
+.content-four h2 {
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: aquamarine;
 }
 
 
+
+
+.card {
+    padding: 0;
+    margin-top: 20px;
+
+}
+
+.card-wrapper {}

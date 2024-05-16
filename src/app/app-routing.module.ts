@@ -12,6 +12,8 @@ import { BodyDashboardComponent } from './Component/myservices/bodycare/body-das
 import { BodyCareHimComponent } from './Component/myservices/bodycare/body-care-him/body-care-him.component';
 import { AboutusComponent } from './Component/navbar/header/aboutus/aboutus.component';
 import { HairPricetagComponent } from './Component/myservices/haircare/hair-pricetag/hair-pricetag.component';
+import { LoginComponent } from './Component/navbar/header/Login/login/login.component';
+import { RegisterComponent } from './Component/navbar/header/Register/register/register.component';
 
 const routes: Routes = [
 
@@ -37,7 +39,9 @@ const routes: Routes = [
     ]},
   {path: '', component: HomeComponent},
   {path: 'a', component: AboutusComponent},
-  {path: 'hairherprice', component: HairPricetagComponent}
+  {path: 'hairherprice', component: HairPricetagComponent},
+  {path: 'login', component:LoginComponent},
+  {path:'register', component:RegisterComponent}
 
 ];
 

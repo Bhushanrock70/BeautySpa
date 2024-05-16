@@ -1,0 +1,104 @@
+.my_container{
+    background: rgba(0,0,0,.4);
+    padding: 5px;
+    background: rgb(172,172,172);
+    background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(137,186,165,1) 17%, rgba(56,98,99,1) 40%, rgba(15,82,82,1) 68%, rgba(145,126,145,1) 93%);
+}
+.container{
+    display: flex;
+}
+.myImg {
+    float: right;
+    width: 400px;
+}
+.myImgLabel {
+    color: darkblue;
+    position: absolute;
+    font-family: cursive;
+    top: 260px;
+    right: 165px;
+    font-size: xx-large;
+}
+
+.login-container {
+    margin: 75px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 700px;
+    margin-left: 23%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-container h2 {
+    color: aqua;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.form-group {
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 17px;
+    margin-bottom:2px;
+    margin-top: 18px;
+    color: #46fbdf;
+    text-align: right;
+    font-weight: 400;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.form-group input {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 29px;
+    background: rgba(0,0,0,.4);
+    border: 2px solid #46fbdf;
+    border-radius: 5px;
+    padding: 0 5px;
+    width: 320px;
+    height: 45px;
+    margin-top: 5px;
+}
+.my_button{
+    display: flex;
+    margin-top: 10px;
+    width: 179px;
+    align-self: center;
+}
+
+.login-button:hover {
+    box-shadow: #ccc;
+}
+
+
+/* Apply box-shadow when the input is focused */
+
+.login-form input:focus {
+    box-shadow: 0 0 5px rgba(88, 163, 228, 0.7);
+    outline: none;
+}
+.submit-button{
+    color: #46fbdf;
+    border: 2px solid #46fbdf;
+    font-size: 14px;
+    margin: 2px;
+}
+.myline {
+    height: 1px;
+    width: 260px;
+    margin: 20px auto;
+    background: #46fbdf;
+}
