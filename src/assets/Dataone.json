@@ -1,26 +1,26 @@
 [
     {
-        "title": "Shampoo",
+        "title": "Eye Liner",
         "star": " ✰  ✰  ✰  ✰  ✰ ",
-        "image": "../assets/image/home1.jpg",
+        "image": "../assets/image/eyeliner.jpg",
         "description": "120 RS"
     },
     {
-        "title": "Facial cream",
+        "title": "Nail Polish",
         "star": " ✰  ✰  ✰  ✰  ✰ ",
-        "image": "../assets/image/facial.jpg",
-        "description": "210 RS"
+        "image": "../assets/image/nailpolish.jpg",
+        "description": "150 RS"
     },
     {
-        "title": "Bleach cream",
+        "title": "Soap",
         "star": " ✰  ✰  ✰  ✰  ✰ ",
-        "image": "../assets/image/facial.jpg",
-        "description": "160 RS"
+        "image": "../assets/image/Soap.jpg",
+        "description": "60 RS"
     },
     {
-        "title": "Face serum",
+        "title": "Sun cream",
         "star": " ✰  ✰  ✰  ✰  ✰ ",
-        "image": "../assets/image/facial.jpg",
-        "description": "350 RS"
+        "image": "../assets/image/Suncream.jpg",
+        "description": "450 RS"
     }
 ]
