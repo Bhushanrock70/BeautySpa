@@ -10,137 +10,29 @@
     </div>
   </div>
 
-  <div>
-    <div
-      id="carouselExampleControls"
-      class="carousel carousel-dark slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="card-wrapper container-sm d-flex justify-content-around">
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card ti</h5>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card tile</h5>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card-wrapper container-sm d-flex justify-content-around">
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">title</h5>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card-wrapper container-sm d-flex justify-content-around">
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://source.unsplash.com/collection/190727/1600x900"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- <app-card></app-card> -->
 
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<!-- <div class="container carousel-item my-4">
+    <div class="row">
+      <div *ngFor="let card of servicecard" class="col-md-3">
+        <div class="card mb-3">
+          <img
+            [src]="card.image"
+            class="card-img-top"
+            alt="{{ card.title }}"
+            width="300px"
+            height="200px"
+          />
+          <div class="card-body">
+            <span>{{ card.star }}</span>
+            <h5 class="card-title">{{ card.title }}</h5>
+            <p class="card-text">{{ card.description }}</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </div> -->
+
 
   <div class="content-two">
     <h4>"Popular products"</h4>
@@ -249,14 +141,41 @@
 
   <div class="d-flex">
     <div class="image-home1 d-flex flex-column">
-      <p>"Latest in the town"</p>
+      <p>"Products"</p>
+      <h3>For your Skin Care</h3>
       <p></p>
     </div>
 
     <div class="image-home2 d-flex flex-column">
-      <p>"Latest in the town"</p>
+      <p>"Makeup Kit"</p>
+      <h3> For your Beauty</h3>
     </div>
   </div>
 
+  <div class="elementor-elementthree">
+    <div class="d-flex ">
+     <div class="left-side-box">
+      <div class="first-box">
+        <p>Why Choose Us</p>
+      </div>
+      <div class="line">
+      </div>
+     </div>
+    <div class="right-side-box">
+      <div class="box">
+        <p>Fast Delivery</p>
+        <h4>We promise our delivery will be always on time</h4>
+      </div>
+      <div class="box">
+        <p>Free Shipping</p>
+        <h4>We promise our delivery will be always free. No other charge</h4>
+      </div>
+      <div class="box">
+        <p>Easy Return</p>
+        <h4>We promise you can return or exchange items within  7 Days</h4>
+      </div>
+    </div>
+    </div>
+  </div>
  
 </section>

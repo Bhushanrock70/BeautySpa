@@ -22,5 +22,17 @@
         "star": " ✰  ✰  ✰  ✰  ✰ ",
         "image": "../assets/image/Hair Serum.jpg",
         "description": "250 RS"
+    },
+    {
+        "title": "Bleach cream",
+        "star": " ✰  ✰  ✰  ✰  ✰ ",
+        "image": "../assets/image/facial.jpg",
+        "description": "150 RS"
+    },
+    {
+        "title": "Face serum",
+        "star": " ✰  ✰  ✰  ✰  ✰ ",
+        "image": "../assets/image/Hair Serum.jpg",
+        "description": "250 RS"
     }
 ]
